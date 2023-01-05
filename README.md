@@ -9,4 +9,8 @@ This project is modified on the basis of PaddleOCR. We used the overall framewor
 
 Training
 ---
-Firstly, download two datasets on the website below and 
+Firstly, download two datasets on the website below:
+
+MTHv2:  https://github.com/HCIILAB/MTHv2_Datasets_Release
+
+CLFBL-MY: https://github.com/Lebron-Harden/CLFBL-MY-A-Chinese-historical-document-dataset
