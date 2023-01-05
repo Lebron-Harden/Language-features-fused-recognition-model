@@ -13,4 +13,15 @@ Firstly, download two datasets on the website below:
 
 MTHv2:  https://github.com/HCIILAB/MTHv2_Datasets_Release
 
-CLFBL-MY: https://github.com/Lebron-Harden/CLFBL-MY-A-Chinese-historical-document-dataset
+CLFBL-MY: https://github.com/Lebron-Harden/CLFBL-MY-A-Chinese-historical-document-dataset  
+
+
+
+Secondly, download cooccurrence relation matrix which is used in the prediction rectification module: https://drive.google.com/file/d/1mXyX52PqGXn7C52YOjKudWbu-TrJ4UTJ/view?usp=sharing
+
+Thirdly, run tools\train.py to starting training. You can modify some hyper-parameters in configs\res18_fuse.yml before training.
+
+
+Evaluation
+---
+Run tools\eval.py to perform batch evaluation. You can also run tools\infer.py to recognize a single image.
