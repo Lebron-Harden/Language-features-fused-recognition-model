@@ -17,11 +17,12 @@ CLFBL-MY: https://github.com/Lebron-Harden/CLFBL-MY-A-Chinese-historical-documen
 
 
 
-Secondly, download cooccurrence relation matrix which is used in the prediction rectification module: https://drive.google.com/file/d/1mXyX52PqGXn7C52YOjKudWbu-TrJ4UTJ/view?usp=sharing
+Secondly, download cooccurrence relation matrix which is used in the prediction rectification module: https://drive.google.com/file/d/1mXyX52PqGXn7C52YOjKudWbu-TrJ4UTJ/view?usp=sharing. Then put it in the weights folder.
 
-Thirdly, run [tools\train.py](tools\train.py) to starting training. You can modify some hyper-parameters in configs\res18_fuse.yml before training.
+Thirdly, run [tools\train.py](tools\train.py) to starting training. You can modify some hyper-parameters in [configs\res18_fuse.yml](configs\res18_fuse.yml) before training.
+
 
 
 Evaluation
 ---
-Run tools\eval.py to perform batch evaluation. You can also run tools\infer.py to recognize a single image.
+Run [tools\eval.py](tools\eval.py) to perform batch evaluation. You can also run [tools\infer.py](tools\infer.py) to recognize a single image.
